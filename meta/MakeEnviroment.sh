@@ -6,8 +6,6 @@ export SYSTEM=$HOME/Desktop/system
 export META=$HOME/Desktop/meta
 export DISK=$HOME/Desktop/disk
 
-SYSTEM_HOME=$HOME/Desktop/system
-
 rm -rf $HOME/.ssh
 rm -rf $HOME/.config/nvim/init.vim
 rm -rf $HOME/.config/Code/User/settings.json
