@@ -1,0 +1,53 @@
+control panel:
+  address: https://my.contabo.com
+  username: 102quangnn@gmail.com
+  pass vps: qAzplm@13579
+  pass storage: Haytinhtanlen@8992
+  client id: INT-11836051
+  client pass: CL5YkwNlFRHdP9Qtnyes8N3PQWywRC8W
+  customerid: 11836051
+  pass: 20606C3802544Feab8f093a19e83e4cc
+
+tester:
+  ip: 217.76.56.249
+  ipv6: "2a02:c206:2112:4476:0000:0000:0000:0001/64"
+  vnc.ip: "178.18.240.86:63189"
+  vnc.pass: SUwDFf3v
+  date: 15/12/2022
+  201124476
+
+master:
+  ip: 217.76.56.250
+  ipv6: "2a02:c206:2112:4477:0000:0000:0000:0001/64"
+  vnc.ip: "161.97.159.229:63118"
+  vnc.pass: D9wMsNpe
+  date: 15/12/2022
+  201124477
+
+worker1:
+  ip: 217.76.59.78
+  ipv6: "2a02:c206:2112:5559:0000:0000:0000:0001/64"
+  vnc.ip: "5.182.17.89:63038"
+  vnc.pass: TwZZ6LFt
+  date: 16/12/2022
+  201125559
+
+worker2:
+  ip: 217.76.59.79
+  ipv6: "2a02:c206:2112:5560:0000:0000:0000:0001/64"
+  vnc.ip: "194.163.145.169:63010"
+  vnc.pass: uRjqJ33E
+  date: 16/12/2022
+  201125560
+
+static:
+  ip: 217.76.52.157
+  ipv6: "2a02:c206:2112:2093:0000:0000:0000:0001/64"
+  vnc.ip: "161.97.159.108:63175"
+  vnc.pass: LXk3szVa
+  date: 12/12/2022
+  201122093
+
+storage:
+  space: 250GB
+  date: 16/12/2022
