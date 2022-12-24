@@ -1,0 +1,16 @@
+[Unit]
+Description=GeoNode UWSGI Service
+After=rc-local.service
+
+[Service]
+User=root
+PIDFile=/run/geonode-uwsgi.pid
+ExecStart=/usr/bin/geonode-uwsgi-start.sh
+PrivateTmp=true
+Type=simple
+Restart=always
+KillMode=process
+TimeoutSec=900
+
+[Install]
+WantedBy=multi-user.target
