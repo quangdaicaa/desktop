@@ -22,6 +22,7 @@ mkdir -p $HOME/.config/Code/User
 mkdir -p $HOME/.vscode/extensions
 mkdir -p $HOME/.local/bin
 
+cp $DISK/cntb /usr/bin/cntb
 ln -s $DISK/icons $HOME/.vscode/extensions/icons
 ln -s $META/settings.json $HOME/.config/Code/User/settings.json
 ln -s $META/keybindings.json $HOME/.config/Code/User/keybindings.json
