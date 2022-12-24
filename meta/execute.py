@@ -120,4 +120,4 @@ if __name__ == '__main__':
 if MODE == 'add':
   run(['git', 'branch', '-M', 'main'])
   run(['git', 'add', PATH])
-  run(['git', 'commit', '-m', uuid.uuid4()])
+  run(['git', 'commit', '-m', str(uuid.uuid4())])

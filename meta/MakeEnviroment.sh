@@ -1,7 +1,6 @@
 #!/usr/bin/zsh
 
 export HOME=/home/quang
-
 export ENV=$HOME/Desktop/env
 export SYSTEM=$HOME/Desktop/system
 export META=$HOME/Desktop/meta
