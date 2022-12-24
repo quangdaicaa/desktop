@@ -29,6 +29,7 @@ ln -s $META/.zshenv $HOME/.zshenv
 ln -s $META/init.vim $HOME/.config/nvim/init.vim
 ln -s $META/.tmux.conf $HOME/.tmux.conf
 ln -s $META/config $HOME/.ssh/config
+ln -s $META/sshd_config /etc/ssh/sshd_config
 ln -s $DOTNET_HOME/dotnet /usr/bin/dotnet
 
 apt update
